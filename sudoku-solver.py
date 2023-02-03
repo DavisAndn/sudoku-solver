@@ -2,7 +2,7 @@ def find_empty_space(board):
     """
     find an empty space in the board
     param board: partially complete board
-    return: (int, int) the row and the column
+    return: (int, int) -> (row, column)
     """
     for i in range(9):
         for j in range(9):
@@ -12,7 +12,7 @@ def find_empty_space(board):
 
 def valid_number(board, number, position):
     """
-    return if the number fit in the position
+    return if the number is valid
     param board: 2d list of ints
     param position: (row, col)
     param number: integer
