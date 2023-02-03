@@ -17,5 +17,6 @@ Starting with an incomplete board:
 ## Installation and use
 
 > pip install -r requirements.txt
+
 > python3 sudoku-solver.py
 
